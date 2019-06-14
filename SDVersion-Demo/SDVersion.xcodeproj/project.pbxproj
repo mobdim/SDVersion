@@ -24,6 +24,7 @@
 		1FE53CCE1D3FF490005739A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE53CCD1D3FF490005739A5 /* Assets.xcassets */; };
 		1FE53CD91D3FF491005739A5 /* SDtvOSVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE53CD81D3FF491005739A5 /* SDtvOSVersionTests.m */; };
 		1FE53CE11D3FF4A3005739A5 /* SDtvOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE53CB91D3FF468005739A5 /* SDtvOSVersion.m */; };
+		327AF90122B36281002210D4 /* SDVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 327AF8FF22B36281002210D4 /* SDVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A6DB5E91B8E82D00065EA11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6DB5DF1B8E82D00065EA11 /* AppDelegate.m */; };
 		9A6DB5EA1B8E82D00065EA11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6DB5E01B8E82D00065EA11 /* LaunchScreen.xib */; };
 		9A6DB5EB1B8E82D00065EA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6DB5E21B8E82D00065EA11 /* Main.storyboard */; };
@@ -136,6 +137,9 @@
 		1FE53CD41D3FF491005739A5 /* SDtvOSVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDtvOSVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE53CD81D3FF491005739A5 /* SDtvOSVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDtvOSVersionTests.m; sourceTree = "<group>"; };
 		1FE53CDA1D3FF491005739A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327AF8FD22B36281002210D4 /* SDVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		327AF8FF22B36281002210D4 /* SDVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDVersion.h; sourceTree = "<group>"; };
+		327AF90022B36281002210D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A6DB5DE1B8E82D00065EA11 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A6DB5DF1B8E82D00065EA11 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A6DB5E11B8E82D00065EA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -184,6 +188,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1FE53CD11D3FF491005739A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327AF8FA22B36281002210D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,6 +287,15 @@
 			path = SDtvOSVersionTests;
 			sourceTree = "<group>";
 		};
+		327AF8FE22B36281002210D4 /* SDVersion */ = {
+			isa = PBXGroup;
+			children = (
+				327AF8FF22B36281002210D4 /* SDVersion.h */,
+				327AF90022B36281002210D4 /* Info.plist */,
+			);
+			path = SDVersion;
+			sourceTree = "<group>";
+		};
 		9A6DB5DD1B8E82D00065EA11 /* SDiOSVersion */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +352,7 @@
 				1FC73D101D244B87005F81DA /* SDwatchOSVersion Extension */,
 				1FE53CC01D3FF490005739A5 /* SDtvOSVersion */,
 				1FE53CD71D3FF491005739A5 /* SDtvOSVersionTests */,
+				327AF8FE22B36281002210D4 /* SDVersion */,
 				9AA6624919BFABFC0055042F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -347,6 +368,7 @@
 				1FC73D0C1D244B87005F81DA /* SDwatchOSVersion Extension.appex */,
 				1FE53CBF1D3FF490005739A5 /* SDtvOSVersion.app */,
 				1FE53CD41D3FF491005739A5 /* SDtvOSVersionTests.xctest */,
+				327AF8FD22B36281002210D4 /* SDVersion.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -394,6 +416,17 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		327AF8F822B36281002210D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327AF90122B36281002210D4 /* SDVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1FC73CFF1D244B87005F81DA /* SDwatchOSVersion */ = {
@@ -464,6 +497,24 @@
 			productName = SDtvOSVersionTests;
 			productReference = 1FE53CD41D3FF491005739A5 /* SDtvOSVersionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		327AF8FC22B36281002210D4 /* SDVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327AF90422B36281002210D4 /* Build configuration list for PBXNativeTarget "SDVersion" */;
+			buildPhases = (
+				327AF8F822B36281002210D4 /* Headers */,
+				327AF8F922B36281002210D4 /* Sources */,
+				327AF8FA22B36281002210D4 /* Frameworks */,
+				327AF8FB22B36281002210D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDVersion;
+			productName = SDVersion;
+			productReference = 327AF8FD22B36281002210D4 /* SDVersion.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		9AA6624719BFABFC0055042F /* SDiOSVersion */ = {
 			isa = PBXNativeTarget;
@@ -559,6 +610,11 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 1FE53CBE1D3FF490005739A5;
 					};
+					327AF8FC22B36281002210D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = BRUH2SLRAU;
+						ProvisioningStyle = Automatic;
+					};
 					9AA6624719BFABFC0055042F = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -582,6 +638,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -598,6 +655,7 @@
 				1FC73D0B1D244B87005F81DA /* SDwatchOSVersion Extension */,
 				1FE53CBE1D3FF490005739A5 /* SDtvOSVersion */,
 				1FE53CD31D3FF491005739A5 /* SDtvOSVersionTests */,
+				327AF8FC22B36281002210D4 /* SDVersion */,
 			);
 		};
 /* End PBXProject section */
@@ -630,6 +688,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1FE53CD21D3FF491005739A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327AF8FB22B36281002210D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -698,6 +763,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE53CD91D3FF491005739A5 /* SDtvOSVersionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327AF8F922B36281002210D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,6 +1030,78 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDtvOSVersion.app/SDtvOSVersion";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		327AF90222B36281002210D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BRUH2SLRAU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SDVersion/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.shtrafy.framework.sdversion.SDVersion;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		327AF90322B36281002210D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BRUH2SLRAU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SDVersion/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.shtrafy.framework.sdversion.SDVersion;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1267,6 +1411,15 @@
 			buildConfigurations = (
 				1FE53CDF1D3FF491005739A5 /* Debug */,
 				1FE53CE01D3FF491005739A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327AF90422B36281002210D4 /* Build configuration list for PBXNativeTarget "SDVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327AF90222B36281002210D4 /* Debug */,
+				327AF90322B36281002210D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
