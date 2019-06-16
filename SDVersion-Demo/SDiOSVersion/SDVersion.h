@@ -2,9 +2,12 @@
 //  SDVersion.h
 //  SDVersion
 //
-//  Created by Dmitriy Zadoroghnyy on 14/06/2019.
+//  Created by Dmitriy Zadoroghnyy on 16/06/2019.
 //  Copyright © 2019 Sebastian Dobrincu. All rights reserved.
 //
+
+#ifndef SDVersion_h
+#define SDVersion_h
 
 #import <UIKit/UIKit.h>
 
@@ -18,3 +21,5 @@ FOUNDATION_EXPORT const unsigned char SDVersionVersionString[];
 
 #import "SDiOSVersion.h"
 #define SDVersion SDiOSVersion
+
+#endif /* SDVersion_h */

@@ -24,6 +24,10 @@
 		1FE53CCE1D3FF490005739A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE53CCD1D3FF490005739A5 /* Assets.xcassets */; };
 		1FE53CD91D3FF491005739A5 /* SDtvOSVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE53CD81D3FF491005739A5 /* SDtvOSVersionTests.m */; };
 		1FE53CE11D3FF4A3005739A5 /* SDtvOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE53CB91D3FF468005739A5 /* SDtvOSVersion.m */; };
+		3206C36822B6D4F700F0ACCA /* SDiOSVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 9A95DA941B853CFF00F96CB5 /* SDiOSVersion.h */; };
+		3206C36922B6D4F700F0ACCA /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95DA951B853CFF00F96CB5 /* SDiOSVersion.m */; };
+		3206C37122B6D5F900F0ACCA /* SDVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3206C37022B6D5F900F0ACCA /* SDVersion.h */; };
+		3206C37222B6D63000F0ACCA /* SDVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 3206C37022B6D5F900F0ACCA /* SDVersion.h */; };
 		327AF90122B36281002210D4 /* SDVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 327AF8FF22B36281002210D4 /* SDVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A6DB5E91B8E82D00065EA11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6DB5DF1B8E82D00065EA11 /* AppDelegate.m */; };
 		9A6DB5EA1B8E82D00065EA11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6DB5E01B8E82D00065EA11 /* LaunchScreen.xib */; };
@@ -137,6 +141,7 @@
 		1FE53CD41D3FF491005739A5 /* SDtvOSVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDtvOSVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE53CD81D3FF491005739A5 /* SDtvOSVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDtvOSVersionTests.m; sourceTree = "<group>"; };
 		1FE53CDA1D3FF491005739A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3206C37022B6D5F900F0ACCA /* SDVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDVersion.h; sourceTree = "<group>"; };
 		327AF8FD22B36281002210D4 /* SDVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		327AF8FF22B36281002210D4 /* SDVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDVersion.h; sourceTree = "<group>"; };
 		327AF90022B36281002210D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -308,6 +313,7 @@
 				9A6DB5E21B8E82D00065EA11 /* Main.storyboard */,
 				9A6DB5E61B8E82D00065EA11 /* main.m */,
 				9A6DB5E51B8E82D00065EA11 /* Info.plist */,
+				3206C37022B6D5F900F0ACCA /* SDVersion.h */,
 			);
 			path = SDiOSVersion;
 			sourceTree = "<group>";
@@ -422,6 +428,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3206C37122B6D5F900F0ACCA /* SDVersion.h in Headers */,
 				327AF90122B36281002210D4 /* SDVersion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -770,6 +777,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3206C37222B6D63000F0ACCA /* SDVersion.h in Sources */,
+				3206C36822B6D4F700F0ACCA /* SDiOSVersion.h in Sources */,
+				3206C36922B6D4F700F0ACCA /* SDiOSVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
