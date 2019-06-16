@@ -16,5 +16,5 @@ FOUNDATION_EXPORT const unsigned char SDVersionVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SDVersion/PublicHeader.h>
 
-#import "SDiOSVersion.h"
+#import <SDVersion/SDiOSVersion.h>
 #define SDVersion SDiOSVersion
