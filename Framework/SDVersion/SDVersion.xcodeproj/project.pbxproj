@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3206C37422B6D76E00F0ACCA /* SDVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3206C37322B6D76E00F0ACCA /* SDVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3206C37722B6D7AC00F0ACCA /* SDiOSVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 3206C37522B6D7AC00F0ACCA /* SDiOSVersion.h */; };
+		3206C37722B6D7AC00F0ACCA /* SDiOSVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3206C37522B6D7AC00F0ACCA /* SDiOSVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3206C37822B6D7AC00F0ACCA /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3206C37622B6D7AC00F0ACCA /* SDiOSVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3206C36522B6D3BF00F0ACCA /* SDiOSVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDiOSVersion.m; path = ../../SDVersion/SDiOSVersion/SDiOSVersion.m; sourceTree = "<group>"; };
 		3206C37322B6D76E00F0ACCA /* SDVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDVersion.h; path = "../../SDVersion-Demo/SDVersion/SDVersion.h"; sourceTree = "<group>"; };
 		3206C37522B6D7AC00F0ACCA /* SDiOSVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDiOSVersion.h; path = ../../SDVersion/SDiOSVersion/SDiOSVersion.h; sourceTree = "<group>"; };
 		3206C37622B6D7AC00F0ACCA /* SDiOSVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDiOSVersion.m; path = ../../SDVersion/SDiOSVersion/SDiOSVersion.m; sourceTree = "<group>"; };
@@ -38,7 +37,6 @@
 				3206C37522B6D7AC00F0ACCA /* SDiOSVersion.h */,
 				3206C37622B6D7AC00F0ACCA /* SDiOSVersion.m */,
 				3206C37322B6D76E00F0ACCA /* SDVersion.h */,
-				3206C36522B6D3BF00F0ACCA /* SDiOSVersion.m */,
 				327AF91122B36432002210D4 /* SDVersion */,
 				327AF91022B36432002210D4 /* Products */,
 			);
@@ -68,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3206C37422B6D76E00F0ACCA /* SDVersion.h in Headers */,
+				3206C37722B6D7AC00F0ACCA /* SDiOSVersion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3206C37722B6D7AC00F0ACCA /* SDiOSVersion.h in Sources */,
 				3206C37822B6D7AC00F0ACCA /* SDiOSVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
